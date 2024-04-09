@@ -2142,4 +2142,7 @@ var requirejs, require, define;
 
     //Set up with config info.
     req(cfg);
-}(this, (typeof setTimeout === 'undefined' ? undefined : setTimeout)));
+
+    global.requirejs = global.require = req;
+    global.define = define;
+}(window, (typeof setTimeout === 'undefined' ? undefined : setTimeout)));

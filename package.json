@@ -1,6 +1,10 @@
 {
-  "name": "requirejs",
+  "name": "@variousjs/requirejs",
+  "version": "0.0.1",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "volo": {
     "url": "https://raw.github.com/requirejs/requirejs/{version}/require.js"
   },
